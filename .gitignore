@@ -1,0 +1,15 @@
+.env*
+**/.env*
+*.key
+**/*.key
+
+# Deployment secrets
+**/.kamal/secrets
+
+# Git-generated files
+**/FETCH_HEAD
+
+# Rails local files
+**/storage/*
+**/log/*
+**/tmp/*
